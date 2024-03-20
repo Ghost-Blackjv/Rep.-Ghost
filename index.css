@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+
+}
+
+a {
+    color: white;
+}
+
+header img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px white;
+}
+.center {
+    text-align: center;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    padding: 0px 100px;
+}
+
+nav a:hover {
+    color: rgb(90, 207, 90);
+}
