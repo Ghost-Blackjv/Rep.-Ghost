@@ -5,15 +5,16 @@ body {
 }
 ul {
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
-    align-items: center;
     padding: 16px;
-
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
 }
 
 a {
     color: white;
+    text-align: left;
 }
 
 header img {
@@ -21,10 +22,9 @@ header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 10px white;
 }
 .center {
-    text-align: center;
+    text-align: left;
 }
 
 footer img {
@@ -45,4 +45,127 @@ footer {
 
 nav a:hover {
     color: rgb(90, 207, 90);
+}
+
+footer a {
+    margin: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: black;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #292929;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+section h2 {
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-left: 4px;
+}
+
+form imput {
+    padding: 50px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form imput:focus {
+    border-radius: 16px;
+}
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+forms textarea:focus {
+    border-radius: 16px;
+}
+
+form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover {
+    background: #f5f5f5;
+    color: #292929;
+    border-radius: 16px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 45px;
+    color: #f5f5f5;
+    margin-bottom: 30px;
+}
+
+.paragrafo {
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 15px 55px;
+    background: #f5f5f5;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    border-radius: 16px;
 }
