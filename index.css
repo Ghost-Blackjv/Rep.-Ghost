@@ -3,18 +3,26 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-ul {
-    display: flex;
+nav ul {
     list-style-type: none;
-    padding: 16px;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    float: right;
 }
 
-a {
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
     color: white;
     text-align: left;
+    text-decoration: none;
 }
 
 header img {
@@ -22,6 +30,7 @@ header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    padding: 20px;
 }
 .center {
     text-align: left;
@@ -168,4 +177,28 @@ form button:hover {
 
 .btn:hover {
     border-radius: 16px;
+}
+
+.interesses {
+    padding: 30px;
+}
+
+.projetos {
+    padding: 30px;
+}
+
+.sonhos {
+    padding: 30px;
+}
+
+.Conclusão {
+    padding: 30px;
+}
+
+.longo {
+    padding: 10px;
+}
+
+.curto {
+    padding: 10px;
 }
